@@ -4,3 +4,9 @@
 	// Your starting point. Enjoy the ride!
 
 })(window);
+
+(function (Vue) {
+	var app = new Vue({
+		el: "#todoapp"
+	})
+})(Vue);
